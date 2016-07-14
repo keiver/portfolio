@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "description": "Keiver Hernandez Personal Portfolio",
+  "version": "0.1.2",
+  "homepage": "https://github.com/keiver/portfolio",
+  "license": "GPL-2.0+",
+  "private": false,
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

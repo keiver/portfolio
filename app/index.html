@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Keiver Hernandez - Web Developer</title>
+    <meta name="description" content="Keiver Hernandez Fernandez Work and Interests">
+    <meta name="author" content="Keiver Hernandez">
+    <meta name="keywords" content="html5, css3, json, javascript, jquery, angularjs, developer, designer, web developer, keiver, keiverh, web developer, miami web development, yii2, responsive web programming">
+    <meta name="google-site-verification" content="47FVWGKz9HVfpbW36sWajU2kmQBSk_2WjrrSPEAOEw4" />
+    <meta name="msvalidate.01" content="C6FE0D2E9557908436EEC1F2B13F9178" />
+
+    <meta property="og:title" content="Keiver Hernandez - Web Developer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.keiverh.com/">
+    <meta property="og:site_name" content="Keiverh.com">
+    <meta property="og:description" content="Keiver Hernandez Fernandez Work and Interests.">
+    <meta property="og:image" content="http://www.keiverh.com/apple-touch-icon-180x180.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Keiver Hernandez - Web Developer.">
+    <meta name="twitter:description" content="Keiver Hernandez Fernandez Work and Interests.">
+    <meta name="twitter:image" content="http://www.keiverh.com/apple-touch-icon-180x180.png">
+
+    <link href="build/css/vendors.min.css" rel="stylesheet">
+    <link href="build/css/portfolio.min.css" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png"/>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-79852313-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script type="text/javascript">
+        WebFontConfig={google:{families:["Droid+Sans+Mono::latin"]}},function(){var e=document.createElement("script");e.src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js",e.type="text/javascript",e.async="true";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}();
+    </script>
+</head>
+
+<body>
+<div id="bg"></div>
+<div class="container">
+    <button class="hamburger" type="button" aria-label="Menu" aria-controls="sidebar-wrapper" id="menu-toggle">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li>
+                <a id="menu-close" href="#" class="btn toggle close close-li">
+                    <img src="img/close.png" alt="">
+                </a>
+            </li>
+            <li class="initial-item">&nbsp;</li>
+            <li><a href="#work">some of my work</a></li>
+            <li><a href="#resume">resume</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="center-block logo" title="Keiver Hdez Fdez"></div>
+            <div id="intro" class="text-center">
+                <h1 id="name">Hello, my name is Keiver</h1>
+                <h2 id="title">I&#39;m a Web Developer <span class="smaller-text sr-only">living in Miami</span></h2>
+                <h2 id="tech">
+                    <span class="smaller-text">I usually work with:</span>
+                    <br/>
+                    <span id="stuff"></span>
+                </h2>
+                <div id="typed-strings">
+                    <p>html5</p>
+                    <p>css3</p>
+                    <p>javascript</p>
+                    <p>angularjs</p>
+                    <p>responsive design</p>
+                    <p>ajax</p>
+                    <p>jquery</p>
+                    <p>git</p>
+                    <p>sql/mongodb</p>
+                    <p>twitter bootstrap</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#work" id="mouse-icon">
+        <div class="mouse text-center center-block">
+            <div class="wheel"></div>
+        </div>
+    </a>
+
+    <div class="row" id="work">
+        <div class="col-lg-12">
+            <h2 class="text-center section">some of my work</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="properties">
+                            <p class="name">
+                                Timber Loft Chalet - Bed and Breakfast
+                            </p>
+                            <p class="link">
+                                <a href="http://revelstoketimberloft.com/" target="_blank">revelstoketimberloft.com</a>
+                            </p>
+                        </div>
+                        <img class="img-responsive img-rounded center-block img-custom" src="img/t_revelstoke.jpg"
+                             title="Timber Loft Chalet Bed and Breakfast" alt="Timber Loft Chalet Bed and Breakfast"
+                             data-original="img/revelstoke.jpg"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="properties">
+                            <p class="name">
+                                Eli Pullan - Litigation and Consulting
+                            </p>
+                            <p class="link">
+                                <a href="http://pullan.ca/" target="_blank">www.pullan.ca</a>
+                            </p>
+                        </div>
+                        <img class="img-responsive img-rounded center-block img-custom" src="img/t_pullan.jpg"
+                             title="Eli Pullan - Litigation and Consulting" alt="Eli Pullan - Litigation and Consulting"
+                             data-original="img/pullan.jpg"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="properties">
+                            <p class="name">
+                                Flash On Church - Members Club And Bar
+                            </p>
+                            <p class="link">
+                                <a href="http://flashonchurch.com/" target="_blank">www.flashonchurch.com</a>
+                            </p>
+                        </div>
+                        <img class="img-responsive img-rounded center-block img-custom" src="img/t_flash.jpg"
+                             title="Flash On Church" alt="Flash On Church" data-original="img/flash.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="properties">
+                            <p class="name">
+                                Social Site - Administration Area
+                            </p>
+                            <p class="link">
+                                No Link Available
+                            </p>
+                        </div>
+                        <img class="img-responsive img-rounded center-block img-custom" src="img/t_canmale.jpg"
+                             title="Administration Area Canadian Male" alt="Administration Area Canadian Male"
+                             data-original="img/canmale.jpg"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="properties">
+                            <p class="name">
+                                My Cuban Casa - Rent Houses in Cuba
+                            </p>
+                            <p class="link">
+                                <a href="http://www.mycubancasa.com/" target="_blank">www.mycubancasa.com</a>
+                            </p>
+                        </div>
+                        <img class="img-responsive img-rounded center-block img-custom" src="img/t_casa.jpg"
+                             title="Cuban Rent Houses" alt="Cuban Rent Houses" data-original="img/casa.jpg"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="properties">
+                            <p class="name">
+                                Northern Exposed Inc - Software Company
+                            </p>
+                            <p class="link">
+                                <a href="http://www.northernexposed.ca/" target="_blank">www.northernexposed.ca</a>
+                            </p>
+                        </div>
+                        <img class="img-responsive img-rounded center-block img-custom" src="img/t_ne.jpg"
+                             title="Northern Exposed Inc." alt="Northern Exposed Inc." data-original="img/ne.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="properties">
+                            <p class="name">
+                                Emergency Response Center - Mockup
+                            </p>
+                            <p class="link">
+                                No Link Available
+                            </p>
+                        </div>
+                        <img class="img-responsive img-rounded center-block img-custom" src="img/t_er.jpg"
+                             title="Emergency Response Center" alt="Emergency Response Center" data-original="img/er.jpg"/>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="properties">
+                            <p class="name">
+                                Canadians For Cubans - Humanitarian Project
+                            </p>
+                            <p class="link">
+                                <a href="http://www.canadiansforcuba.ca/" target="_blank">www.canadiansforcuba.ca</a>
+                            </p>
+                        </div>
+                        <img class="img-responsive img-rounded center-block img-custom" src="img/t_cc.jpg"
+                             title=" Canadians For Cubans - Humanitarian Project" alt=" Canadians For Cubans - Humanitarian Project"
+                             data-original="img/cc.jpg"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="properties">
+                            <p class="name">
+                                Promed+ - Clinical Research Software
+                            </p>
+                            <p class="link">
+                                <a href="http://promed.azurewebsites.net/" target="_blank">promed.azurewebsites.net</a>
+                            </p>
+                        </div>
+                        <img class="img-responsive img-rounded center-block img-custom" src="img/t_promed.jpg"
+                             title=" Promed+ - Clinical Research Software" alt=" Promed+ - Clinical Research Software" data-original="img/promed.jpg"/>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="properties">
+                            <p class="name">
+                                Product Tracking System - Mockup
+                            </p>
+                            <p class="link">
+                                No Link Available
+                            </p>
+                        </div>
+                        <img class="img-responsive img-rounded center-block img-custom" src="img/t_route.jpg"
+                             title="Product Tracking System" alt="Product Tracking System"
+                             data-original="img/route.jpg"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="properties">
+                            <p class="name">
+                                KFC Ecuador - Mockup
+                            </p>
+                            <p class="link">
+                                No Link Available
+                            </p>
+                        </div>
+                        <img class="img-responsive img-rounded center-block img-custom" src="img/t_kfc.jpg"
+                             title="KFC Ecuador - Internal Management" alt="KFC Ecuador - Internal Management"
+                             data-original="img/kfc.jpg"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="properties">
+                            <p class="name">
+                                Insurance Company Management - Mockup
+                            </p>
+                            <p class="link">
+                                No Link Available
+                            </p>
+                        </div>
+                        <img class="img-responsive img-rounded center-block img-custom" src="img/t_insurance.jpg"
+                             title="Insurance Company" alt="Insurance Company"
+                             data-original="img/insurance.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="resume">
+        <div class="col-lg-12 text-center">
+            <h2 class="text-center section">resume</h2>
+            <p class="download-files">
+                <a href="resume/KEIVER_HERNANDEZ_FERNANDEZ_07-07-2016.pdf" target="_blank" class="download-link pdf">Download
+                    .pdf File</a>
+                <br class="visible-xs"/>
+                <br class="visible-xs"/>
+                <a href="resume/KEIVER_HERNANDEZ_FERNANDEZ_07-07-2016.docx" target="_blank" class="download-link word">Download
+                    .docx File</a>
+                <br class="visible-xs"/>
+                <br class="visible-xs"/>
+            </p>
+            <div class="terminal">
+                <div class="terminal-header">
+                    <div class="circle green"></div>
+                    <div class="circle yellow"></div>
+                    <div class="circle red"></div>
+                </div>
+                <div class="terminal-body">
+                    <h2 class="resume-name">Keiver Hernandez Fernandez<span class="typed-cursor cursor-green">|</span></h2>
+                    <h3 class="resume-title">Senior Web Developer</h3>
+                    <h2 class="resume-sub-header">SUMMARY OF QUALIFICATIONS</h2>
+                    <p>Passionate IT professional with over 6 years of experience designing and programming web and
+                        desktop applications, with a strong background in Agile and Test-Driven Development.</p>
+                    <p>Specialized in frontend development with solid knowledge of JavaScript, HTML5, CSS3, AngularJS,
+                        JQuery and User Experience Design as well as comprehensive experience in backend development of
+                        API and RESTful services; with know-how of open source tools to develop on GNU/Linux
+                        environments.</p>
+                    <h2 class="resume-sub-header">TOOLS AND TECHNOLOGIES</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <tr>
+                                <td>
+                                    <p>Programming Languages</p>
+                                </td>
+                                <td>
+                                    <p>PHP, JavaScript, C/C++, C#, VB.Net, ASP.NET, HTML5, CSS3, XML, JSON, SASS,
+                                        LESS</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Version Control</p>
+                                </td>
+                                <td>
+                                    <p>Git, SVN, GitHub, JIRA, RedMine</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Database Management</p>
+                                </td>
+                                <td>
+                                    <p>MySQL/MariaDB, MongoDb, MSSQL Server, Sphinx Server, PostgreSQL</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Libraries and Frameworks</p>
+                                </td>
+                                <td>
+                                    <p>Bootstrap, JQuery, Angular JS, Ionic, Yii2, CodeIgniter, .NET, Qt Framework</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Operating Systems</p>
+                                </td>
+                                <td>
+                                    <p>Windows 7/8/10, Windows Server, RedHat, Ubuntu GNU/Linux, OS X</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Areas of Expertise</p>
+                                </td>
+                                <td>
+                                    <p>
+                                        Web Development, Mobile Development, ERP Customization, Data Analysis, GUI
+                                        Design,
+                                        <br/>
+                                        Web Responsive Design, SEO, TDD, User Experience, Software Accessibility, SaaS
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <h2 class="resume-sub-header">EDUCATION</h2>
+                    <p class="close-paragraph">Postgraduate Studies on Teaching and Innovation &mdash;
+                        University of Computer Sciences, Havana, Cuba (2010 - 2013)</p>
+                    <p class="close-paragraph">Bachelor of Computer Sciences &mdash;
+                        University of Computer Sciences, Havana, Cuba (2004 - 2009)</p>
+                    <h2 class="resume-sub-header">PROFESSIONAL EXPERIENCE</h2>
+                    <p class="job">
+                        Senior Web Developer &bull; August 2015 – July 2016
+                        <br/>
+                        Teqspring Inc., Las Vegas, Nevada, USA &mdash; (Creative Works Inc., Ecuador)
+                    </p>
+                    <p>Full-stack programmer of web applications.</p>
+                    <ul>
+                        <li>
+                            Designed and put into practice several mechanisms and patterns to clean and identify useful
+                            data
+                        </li>
+                        <li>
+                            Improved parsing functionalities, increasing the quality of the information in more than 80%
+                        </li>
+                        <li>
+                            Integrated latest version of APIs to comply with the core business of the application
+                        </li>
+                        <li>
+                            Increased consumer experience with the development of an online purchase catalog
+                        </li>
+                    </ul>
+                    <p class="job">
+                        Senior Web/ERP Developer &bull; November 2014 – July 2015
+                        <br/>
+                        Numencorp SA, Quito, Ecuador
+                    </p>
+                    <p>Enterprise Resource Planning (ERP) systems developer and designer.</p>
+                    <ul>
+                        <li>
+                            Increased management potential for customers by developing new customized modules for an ERP
+                            system
+                        </li>
+                        <li>
+                            Improved customer experience by optimizing how the application handled large volumes of data
+                        </li>
+                        <li>
+                            Handled critical issues for already-on-production ERP application instances
+                        </li>
+                    </ul>
+                    <p class="job">
+                        Web Developer &bull; July 2013 – October 2014
+                        <br/>
+                        Northern Exposed Inc., Toronto, Canada
+                    </p>
+                    <p>
+                        Assisting in the design, coding, and testing of web applications, as well as migrating old
+                        websites to newer technologies.
+                    </p>
+                    <ul>
+                        <li>
+                            Assessed technologies migration for already-in-production web applications
+                        </li>
+                        <li>
+                            Enhanced graphic user interfaces and user experience, adapting sites to be responsive to
+                            different devices
+                        </li>
+                        <li>
+                            Improved customer support by developing an intern application to manage change requests
+                        </li>
+                        <li>
+                            Increased clients revenue with the development of e-commerce sites
+                        </li>
+                        <li>
+                            Decreased server failure times and improved database structure and maintenance
+                        </li>
+                    </ul>
+                    <p class="job">
+                        Desktop Application Developer/Project Leader &bull; September 2009 – June 2013
+                        <br/>
+                        ALBET SA, Havana, Cuba
+                    </p>
+                    <p>Leading the development team for an application to create and clone ISO images of GNU/Linux
+                        operating systems.</p>
+                    <ul>
+                        <li>
+                            Managed the software requirements and team resources
+                        </li>
+                        <li>
+                            Evaluated architectural changes and integration issues with Nova GNU/Linux
+                        </li>
+                        <li>
+                            Simplified graphical user interfaces and their behavior
+                        </li>
+                    </ul>
+                    <h2 class="resume-sub-header">CERTIFICATIONS</h2>
+                    <p class="close-paragraph">
+                        Scrum Master Accredited Certification - Certificate Id: 44385580153670,
+                        http://www.scrum-institute.org/, 2015
+                    </p>
+                    <p class="close-paragraph">
+                        Scrum Certification For Web Developer - Certificate Id: 32363845809362,
+                        http://www.scrum-institute.org/, 2016
+                    </p>
+                    <p class="close-paragraph">
+                        Scrum Certification For Mobile App Developer - Certificate Id: 37966506729833,
+                        http://www.scrum-institute.org/, 2016
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="contact">
+        <div class="col-lg-12 text-center">
+            <h2 class="text-center section">contact information</h2>
+            <h3 class="name-contact">Keiver Hernandez Fernandez</h3>
+            <address>
+                1536 SW 9th St. Apt - 1
+                <br/>
+                Miami, FL 33135
+            </address>
+            <h3><a href="tel:+17864781546">+1 786 478 1546</a></h3>
+            <br/>
+            <p>kiverh (at) gmail (dot) com</p>
+
+            <a href="https://www.linkedin.com/in/keiverh" target="_blank" class="no-link">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNNTAuODM3LDQ4LjEzN1YzNi40MjVjMC02LjI3NS0zLjM1LTkuMTk1LTcuODE2LTkuMTk1ICBjLTMuNjA0LDAtNS4yMTksMS45ODMtNi4xMTksMy4zNzRWMjcuNzFoLTYuNzljMC4wOSwxLjkxNywwLDIwLjQyNywwLDIwLjQyN2g2Ljc5VjM2LjcyOWMwLTAuNjA5LDAuMDQ0LTEuMjE5LDAuMjI0LTEuNjU1ICBjMC40OS0xLjIyLDEuNjA3LTIuNDgzLDMuNDgyLTIuNDgzYzIuNDU4LDAsMy40NCwxLjg3MywzLjQ0LDQuNjE4djEwLjkyOUg1MC44Mzd6IE0yMi45NTksMjQuOTIyYzIuMzY3LDAsMy44NDItMS41NywzLjg0Mi0zLjUzMSAgYy0wLjA0NC0yLjAwMy0xLjQ3NS0zLjUyOC0zLjc5Ny0zLjUyOHMtMy44NDEsMS41MjQtMy44NDEsMy41MjhjMCwxLjk2MSwxLjQ3NCwzLjUzMSwzLjc1MywzLjUzMUgyMi45NTl6IE0zNCw2NCAgQzE3LjQzMiw2NCw0LDUwLjU2OCw0LDM0QzQsMTcuNDMxLDE3LjQzMiw0LDM0LDRzMzAsMTMuNDMxLDMwLDMwQzY0LDUwLjU2OCw1MC41NjgsNjQsMzQsNjR6IE0yNi4zNTQsNDguMTM3VjI3LjcxaC02Ljc4OXYyMC40MjcgIEgyNi4zNTR6IiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojMDA3QUI5OyIvPjwvc3ZnPg=="
+                     class="social-icon" alt="LinkedIn Profile" width="67" height="67"/>
+            </a>
+
+            <a href="https://github.com/keiver" target="_blank" class="no-link">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiICAgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiICAgaGVpZ2h0PSIxMDBtbSIgICBzdHlsZT0ic2hhcGUtcmVuZGVyaW5nOmdlb21ldHJpY1ByZWNpc2lvbjsgdGV4dC1yZW5kZXJpbmc6Z2VvbWV0cmljUHJlY2lzaW9uOyBpbWFnZS1yZW5kZXJpbmc6b3B0aW1pemVRdWFsaXR5OyBmaWxsLXJ1bGU6ZXZlbm9kZDsgY2xpcC1ydWxlOmV2ZW5vZGQiICAgdmlld0JveD0iMCAwIDEwMCAxMDAiICAgd2lkdGg9IjEwMG1tIiAgIHhtbDpzcGFjZT0icHJlc2VydmUiICAgaWQ9InN2ZzIiICAgdmVyc2lvbj0iMS4xIiAgIGlua3NjYXBlOnZlcnNpb249IjAuOTEgcjEzNzI1IiAgIHNvZGlwb2RpOmRvY25hbWU9IjE0NjgzNjg1MDNfZ2l0aHViLnN2ZyI+PG1ldGFkYXRhICAgICBpZD0ibWV0YWRhdGExMyI+PHJkZjpSREY+PGNjOldvcmsgICAgICAgICByZGY6YWJvdXQ9IiI+PGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+PGRjOnR5cGUgICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+PGRjOnRpdGxlPjwvZGM6dGl0bGU+PC9jYzpXb3JrPjwvcmRmOlJERj48L21ldGFkYXRhPjxzb2RpcG9kaTpuYW1lZHZpZXcgICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIgICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IiAgICAgYm9yZGVyb3BhY2l0eT0iMSIgICAgIG9iamVjdHRvbGVyYW5jZT0iMTAiICAgICBncmlkdG9sZXJhbmNlPSIxMCIgICAgIGd1aWRldG9sZXJhbmNlPSIxMCIgICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwIiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIgICAgIGlua3NjYXBlOndpbmRvdy13aWR0aD0iMTYwMCIgICAgIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9Ijg0NyIgICAgIGlkPSJuYW1lZHZpZXcxMSIgICAgIHNob3dncmlkPSJmYWxzZSIgICAgIGlua3NjYXBlOnpvb209IjAuNjY2MDQ0NDQiICAgICBpbmtzY2FwZTpjeD0iMzc5LjU3MjgyIiAgICAgaW5rc2NhcGU6Y3k9IjMxMS4zOTAyNSIgICAgIGlua3NjYXBlOndpbmRvdy14PSItOCIgICAgIGlua3NjYXBlOndpbmRvdy15PSItOCIgICAgIGlua3NjYXBlOndpbmRvdy1tYXhpbWl6ZWQ9IjEiICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJzdmcyIiAvPjxkZWZzICAgICBpZD0iZGVmczQiPjxzdHlsZSAgICAgICB0eXBlPSJ0ZXh0L2NzcyIgICAgICAgaWQ9InN0eWxlNiI+PCFbQ0RBVEFbICAgIC5maWwwIHtmaWxsOiMwMDhERDJ9ICAgXV0+PC9zdHlsZT48L2RlZnM+PGcgICAgIGlkPSJFYmVuZV94MDAyMF8xIiAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMS4yNDE3ODI3LDAsMCwxLjI0MTc3OTQsLTEyLjA4OTIsLTEyLjA4OTAzNSkiPjxwYXRoICAgICAgIGNsYXNzPSJmaWwwIiAgICAgICBkPSJtIDQ5Ljk5NzYsMTUuNjI1IGMgLTE4LjkzODQsMCAtMzQuMjk0MywxNS4zNTYgLTM0LjI5NDMsMzQuMjk5NCAwLDE1LjE1MjUgOS44MjM5LDI4LjAwODkgMjMuNDU3MSwzMi41NDQxIDEuNzE1MiwwLjMxNDIgMi4yNTQ4LC0wLjcwMzMgMi4yNTQ4LC0xLjYxMTkgMCwtMC44MTUgMC4wMTcxLC0zLjA5MDUgMCwtNS45NTUgLTkuNTM5MSwyLjA3NDkgLTExLjUxNjIsLTQuNTE2MyAtMTEuNTE2MiwtNC41MTYzIC0xLjU1ODMsLTMuOTY0IC0zLjgwNTEsLTUuMDE3MyAtMy44MDUxLC01LjAxNzMgLTMuMTEzOCwtMi4xMjcyIDAuMjMzMywtMi4wODc3IDAuMjMzMywtMi4wODc3IDMuNDQxMiwwLjI0MzIgNS4yNTU0LDMuNTM2NiA1LjI1NTQsMy41MzY2IDMuMDU5NSw1LjIzNjcgOC4wMjU2LDMuNzI1IDkuOTc4NSwyLjg0OTkgMC4zMTI4LC0yLjIxNzIgMS4yMDA5LC0zLjcyOTMgMi4xODA2LC00LjU4NTcgLTcuNjE1NCwtMC44NjY3IC0xNS42MjIzLC0zLjgwODEgLTE1LjYyMjMsLTE2Ljk1MDggMCwtMy43NDY0IDEuMzM1OSwtNi44MDY1IDMuNTI5NSwtOS4yMDI1IC0wLjM1MzgsLTAuODY3MyAtMS41MzI5LC00LjM1NTMgMC4zMzY2LC05LjA3OTEgMCwwIDIuODc5MSwtMC45MjEzIDkuNDI5NywzLjUxODUgMi43MzU1LC0wLjc2MDggNS42NzEyLC0xLjE0MDMgOC41ODY4LC0xLjE1MzUgMi45MTQzLDAuMDEzMiA1Ljg0NzksMC4zOTI3IDguNTg2NiwxLjE1MzUgNi41NDk0LC00LjQzOCA5LjQyNjcsLTMuNTE4NSA5LjQyNjcsLTMuNTE4NSAxLjg2NzYsNC43MjM4IDAuNjkxLDguMjExOCAwLjMzOSw5LjA3OTEgMi4xOTQsMi4zOTYgMy41MjY2LDUuNDU2MSAzLjUyNjYsOS4yMDI1IDAsMTMuMTc3OCAtOC4wMTk5LDE2LjA3NTYgLTE1LjY2MjcsMTYuOTIxNiAxLjIzMTQsMS4wNjE3IDIuMzQ5NywzLjExOTcgMi4zNDk3LDYuMzE5MSAwLDQuMjg4NSAwLDguMzY3MyAwLDkuNDkzNyAwLDAuOTE3IDAuNTUyNSwxLjkzMjYgMi4yOTQ0LDEuNTk5NSBDIDc0LjQ4MDgsNzcuOTIxIDg0LjI5Nyw2NS4wNzI3IDg0LjI5Nyw0OS45MjQ0IDg0LjI5NywzMC45ODEgNjguOTQxLDE1LjYyNSA0OS45OTc2LDE1LjYyNSBaIE0gNTAsMTIuNTAwMSBjIDIwLjcxMDYsMCAzNy40OTk5LDE2Ljc4OTMgMzcuNDk5OSwzNy41IEMgODcuNDk5OSw3MC43MTA3IDcwLjcxMDYsODcuNSA1MCw4Ny41IDI5LjI4OTQsODcuNSAxMi41MDAyLDcwLjcxMDcgMTIuNTAwMiw1MC4wMDAxIGMgMCwtMjAuNzEwNyAxNi43ODkyLC0zNy41IDM3LjQ5OTgsLTM3LjUgeiIgICAgICAgaWQ9InBhdGg5IiAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIiAgICAgICBzdHlsZT0iZmlsbDojMDA4ZGQyIiAvPjwvZz48L3N2Zz4="
+                     class="social-icon" alt="GitHub Profile" width="67" height="67"/>
+            </a>
+
+            <a href="https://twitter.com/Keiver" target="_blank" class="no-link">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNMzguMTY3LDIyLjI4M2MtMi42MTksMC45NTMtNC4yNzQsMy40MTEtNC4wODYsNi4xMDEgIGwwLjA2MywxLjAzOGwtMS4wNDgtMC4xMjdjLTMuODEzLTAuNDg3LTcuMTQ1LTIuMTM5LTkuOTc0LTQuOTE1bC0xLjM4My0xLjM3N2wtMC4zNTYsMS4wMTdjLTAuNzU0LDIuMjY3LTAuMjcyLDQuNjYxLDEuMjk5LDYuMjcxICBjMC44MzgsMC44OSwwLjY0OSwxLjAxNy0wLjc5NiwwLjQ4N2MtMC41MDMtMC4xNjktMC45NDMtMC4yOTYtMC45ODUtMC4yMzNjLTAuMTQ2LDAuMTQ5LDAuMzU2LDIuMDc2LDAuNzU0LDIuODM5ICBjMC41NDUsMS4wNiwxLjY1NSwyLjA5NywyLjg3MSwyLjcxMmwxLjAyNywwLjQ4N2wtMS4yMTUsMC4wMjFjLTEuMTczLDAtMS4yMTUsMC4wMjEtMS4wODksMC40NjcgIGMwLjQxOSwxLjM3NywyLjA3NCwyLjgzOSwzLjkxOCwzLjQ3NWwxLjI5OSwwLjQ0NGwtMS4xMzEsMC42NzhjLTEuNjc2LDAuOTc2LTMuNjQ2LDEuNTI2LTUuNjE2LDEuNTY3ICBDMjAuNzc1LDQzLjI1NiwyMCw0My4zNDEsMjAsNDMuNDA1YzAsMC4yMTEsMi41NTcsMS4zOTcsNC4wNDQsMS44NjRjNC40NjMsMS4zNzcsOS43NjUsMC43ODMsMTMuNzQ2LTEuNTY4ICBjMi44MjktMS42NzQsNS42NTctNSw2Ljk3OC04LjIyMWMwLjcxMy0xLjcxNSwxLjQyNS00Ljg1MSwxLjQyNS02LjM1NGMwLTAuOTc1LDAuMDYzLTEuMTAyLDEuMjM2LTIuMjY3ICBjMC42OTItMC42NzgsMS4zNDEtMS40MTksMS40NjctMS42MzFjMC4yMS0wLjQwMywwLjE4OC0wLjQwMy0wLjg4LTAuMDQzYy0xLjc4MSwwLjYzNi0yLjAzMywwLjU1MS0xLjE1Mi0wLjQwMiAgYzAuNjQ5LTAuNjc4LDEuNDI1LTEuOTA3LDEuNDI1LTIuMjY3YzAtMC4wNjMtMC4zMTQsMC4wNDItMC42NzEsMC4yMzNjLTAuMzc3LDAuMjEyLTEuMjE1LDAuNTMtMS44NDQsMC43MmwtMS4xMzEsMC4zNjFsLTEuMDI3LTAuNyAgYy0wLjU2Ni0wLjM4MS0xLjM2MS0wLjgwNS0xLjc4MS0wLjkzMkM0MC43NjYsMjEuOTAyLDM5LjEzMSwyMS45NDQsMzguMTY3LDIyLjI4M3ogTTM0LDY0QzE3LjQzMiw2NCw0LDUwLjU2OCw0LDM0ICBDNCwxNy40MzEsMTcuNDMyLDQsMzQsNHMzMCwxMy40MzEsMzAsMzBDNjQsNTAuNTY4LDUwLjU2OCw2NCwzNCw2NHoiIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiM1OThEQ0E7Ii8+PC9zdmc+"
+                     class="social-icon" alt="Twitter Profile" width="67" height="67"/>
+            </a>
+
+            <a href="https://plus.google.com/+KeiverHernandezFernandez" target="_blank" class="no-link">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNMzIuOTYzLDM1LjAwMmMxLjYwOS0xLjYwOCwxLjczNC0zLjg0NSwxLjczNC01LjEwMiAgYzAtNS4wNTEtMi45OS0xMi44NzUtOC43OTYtMTIuODc1Yy0xLjgxLDAtMy43NywwLjkxLTQuOSwyLjMxYy0xLjE4MSwxLjQ2OC0xLjUzMywzLjM1My0xLjUzMyw1LjE2MiAgYzAsNC43LDIuNzE0LDEyLjQ2NSw4Ljc0NiwxMi40NjVDMjkuOTQ4LDM2Ljk2MiwzMS44MzMsMzYuMTA3LDMyLjk2MywzNS4wMDJ6IE00LDM0YzAsNy40MDUsMi42ODMsMTQuMTg0LDcuMTI5LDE5LjQxNSAgYzAuODM5LTEuNDEsMi4xNC0yLjc5Nyw0LjA2Ni0zLjkzN2M0LjM0OC0yLjY2NCwxMC4yMDQtMy4wMTcsMTMuMzctMy4yMThjLTAuOTgtMS4yNTctMi4xMTEtMi41ODktMi4xMTEtNC43NzQgIGMwLTEuMTgyLDAuMzUyLTEuODg1LDAuNzA0LTIuNzE1Yy0wLjc3OSwwLjA3Ni0xLjUzMywwLjE1MS0yLjIzNywwLjE1MWMtNy40MTQsMC0xMS42MTEtNS41MjktMTEuNjExLTEwLjk4MyAgYzAtMy4yMTcsMS40ODMtNi43OTEsNC40NzMtOS4zNzdjMy45OTYtMy4yODQsOC43NDYtMy44NDUsMTIuNTE2LTMuODQ1SDQ0LjdsLTQuNDc0LDIuNTE2aC00LjMyMiAgYzEuNjA3LDEuMzI5LDQuOTUxLDQuMTI3LDQuOTUxLDkuNDQ5YzAsNS4xNzgtMi45NDEsNy42MTUtNS44NTYsOS45MjZjLTAuOTMsMC45MDYtMS45NiwxLjg4Ni0xLjk2LDMuNDE4ICBjMCwxLjUzMywxLjAzLDIuMzg5LDEuODEsMy4wMTdsMi41MTMsMS45NmMzLjA5MiwyLjU2NCw1Ljg4MSw0Ljk1MSw1Ljg4MSw5Ljc3N2MwLDMuMTgyLTEuNDg0LDYuMzc2LTQuMzc5LDguODI2ICBjLTEuNTU3LDAuMjU1LTMuMTUzLDAuMzg4LTQuNzgxLDAuMzkzYzIuOTM4LTEuMjg5LDQuNDYxLTMuNjQ2LDQuNDYxLTYuNDhjMC0zLjU2OC0yLjI4Ny01LjQ1My03LjYxNS05LjI0OCAgYy0wLjU1My0wLjA1MS0wLjkwNS0wLjA1MS0xLjYwOC0wLjA1MWMtMC42MjgsMC00LjM5OCwwLjEyNy03LjMzOCwxLjEwNmMtMS41MzMsMC41NTMtNi4wMDYsMi4yMzctNi4wMDYsNy4yMTMgIGMwLDAuNTQxLDAuMDU4LDEuMDY1LDAuMTcsMS41NjlDOC43NzUsNTIuNjQ1LDQsNDMuODgsNCwzNHogTTYxLjczLDIyLjUzMkw2MS43MywyMi41MzJjMC40NCwxLjA2MywwLjgyMSwyLjE1OSwxLjEzOSwzLjI4MSAgQzYyLjU1MiwyNC42OTEsNjIuMTcxLDIzLjU5Niw2MS43MywyMi41MzJMNjEuNzMsMjIuNTMyTDYxLjczLDIyLjUzMkw2MS43MywyMi41MzJ6IE0zNCw2NEMxNy40MzIsNjQsNCw1MC41NjgsNCwzNCAgQzQsMTcuNDMxLDE3LjQzMiw0LDM0LDRjMTIuNTA3LDAsMjMuMjI3LDcuNjUzLDI3LjczLDE4LjUzMmwwLDBoLTUuOTY2di03LjgxNGgtMy4zNDl2Ny44MTRoLTcuODE0djMuMjgxaDcuODE0djcuODgyaDMuMzQ5di03Ljg4MiAgaDcuMTA0QzYzLjYwNSwyOC40MTUsNjQsMzEuMTYyLDY0LDM0QzY0LDUwLjU2OCw1MC41NjgsNjQsMzQsNjR6IiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojRDY0OTJGOyIvPjwvc3ZnPg=="
+                     class="social-icon" alt="Google+ Profile" width="67" height="67"/>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="build/js/portfolio.min.js"></script>
+</body>
+</html>

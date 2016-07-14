@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "private": false,
+  "version": "v0.1.2",
+  "description": "Keiver Hernandez Personal Portfolio",
+  "repository": {
+    "name": "portfolio",
+    "version": "0.1.2",
+    "private": false,
+    "type": "git",
+    "url": "git://github.com/keiver/portfolio.git"
+  },
+  "license": "GPL-2.0+",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0"
+  },
+  "scripts": {
+    "postinstall": "bower install && grunt",
+    "prestart": "npm install"
+  }
+}
